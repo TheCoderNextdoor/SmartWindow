@@ -1,6 +1,12 @@
+//////////////////////////////////////////////
+//SFE_BMP180.h is for BMP module
+//Wire.h required for serial comm with arduino
+//////////////////////////////////////////////
 #include <SFE_BMP180.h>
 #include <Wire.h>
-
+//////////////////////////////////////////////
+//all pin assignments are done here
+//////////////////////////////////////////////
 #define rainAnalog A0
 #define rainDigital 12
 #define brightness A1
@@ -10,7 +16,22 @@
 #define motorInput2 6 //5 and 6
 #define manualOveride 7
 #define manualOverideControl 8
-
+//////////////////////////////////////////////
+//a few constants defined for uses:
+//motorsSpeed changes motorspeed
+//
+//rainDropsModuleConstant sets threshold value
+//for ADC
+//
+//userLightThreshold changes sensitivity to
+//light from the photodiode
+//higher value lowers sensitivity
+//
+//setRainAmount##
+//
+//setDeviationThreshold##
+//
+//////////////////////////////////////////////
 const int motorsSpeed = 1000;
 const int rainDropsModuleConstant = 1023;
 double dP, d2P, calib;
