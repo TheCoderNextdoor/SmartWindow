@@ -19,4 +19,3 @@ int checkLight(){
   delay(100);
   return bright;
 }
-
