@@ -1,0 +1,33 @@
+arduino 450
+bmp180 350
+rainsensor 220
+motor 360
+l293 130
+jmpr 150
+l358 2 24
+prop3" 8
+bc547 6
+photodiode 150
+wire_singlestd 40
+------
+usb
+12vadp
+pushbtn
+breadboard
+motorSmall
+frame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
